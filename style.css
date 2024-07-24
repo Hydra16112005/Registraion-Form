@@ -1,0 +1,61 @@
+body{
+    background-image: url('VAULTOFCODES_1708601039704.png');
+    background-size: cover;
+    /* background-color: lightcoral; */
+}
+.pagelayout{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    background-image: url('Logo_1718989913215.png');
+    background-size: contain;
+    background-position: center;
+    margin-top: 4%;
+    /* background-color: lightpink; */
+    width: 85%;
+    border-radius: 20px;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 2%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+#Top{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #448ee4;
+    font-size: 150%;
+}
+.name{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+.detail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #448ee4;
+    font-weight: bold;
+    font-size: 100%;
+}
+.box{
+    border-radius: 20px;
+    padding: 4%;
+}
+.DOB{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+}
